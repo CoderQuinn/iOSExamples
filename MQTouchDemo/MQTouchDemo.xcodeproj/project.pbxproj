@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		666B920629BB175B00ADC86F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B920529BB175B00ADC86F /* AppDelegate.m */; };
+		666B920929BB175B00ADC86F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B920829BB175B00ADC86F /* SceneDelegate.m */; };
+		666B920C29BB175B00ADC86F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B920B29BB175B00ADC86F /* ViewController.m */; };
+		666B920F29BB175B00ADC86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666B920D29BB175B00ADC86F /* Main.storyboard */; };
+		666B921129BB175C00ADC86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666B921029BB175C00ADC86F /* Assets.xcassets */; };
+		666B921429BB175C00ADC86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666B921229BB175C00ADC86F /* LaunchScreen.storyboard */; };
+		666B921729BB175C00ADC86F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B921629BB175C00ADC86F /* main.m */; };
+		666B921F29BB197500ADC86F /* MQTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B921E29BB197500ADC86F /* MQTestView.m */; };
+		666B922529BB70C300ADC86F /* TestApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B922429BB70C300ADC86F /* TestApplication.m */; };
+		666B922829BB728100ADC86F /* TestWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B922729BB728100ADC86F /* TestWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		666B920129BB175B00ADC86F /* MQTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		666B920429BB175B00ADC86F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		666B920529BB175B00ADC86F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		666B920729BB175B00ADC86F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		666B920829BB175B00ADC86F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		666B920A29BB175B00ADC86F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		666B920B29BB175B00ADC86F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		666B920E29BB175B00ADC86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		666B921029BB175C00ADC86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666B921329BB175C00ADC86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		666B921529BB175C00ADC86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666B921629BB175C00ADC86F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		666B921D29BB197500ADC86F /* MQTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQTestView.h; sourceTree = "<group>"; };
+		666B921E29BB197500ADC86F /* MQTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTestView.m; sourceTree = "<group>"; };
+		666B922329BB70C300ADC86F /* TestApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestApplication.h; sourceTree = "<group>"; };
+		666B922429BB70C300ADC86F /* TestApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApplication.m; sourceTree = "<group>"; };
+		666B922629BB728100ADC86F /* TestWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestWindow.h; sourceTree = "<group>"; };
+		666B922729BB728100ADC86F /* TestWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		666B91FE29BB175B00ADC86F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		666B91F829BB175B00ADC86F = {
+			isa = PBXGroup;
+			children = (
+				666B920329BB175B00ADC86F /* MQTouchDemo */,
+				666B920229BB175B00ADC86F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		666B920229BB175B00ADC86F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				666B920129BB175B00ADC86F /* MQTouchDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666B920329BB175B00ADC86F /* MQTouchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				666B920429BB175B00ADC86F /* AppDelegate.h */,
+				666B920529BB175B00ADC86F /* AppDelegate.m */,
+				666B920729BB175B00ADC86F /* SceneDelegate.h */,
+				666B920829BB175B00ADC86F /* SceneDelegate.m */,
+				666B920A29BB175B00ADC86F /* ViewController.h */,
+				666B920B29BB175B00ADC86F /* ViewController.m */,
+				666B921D29BB197500ADC86F /* MQTestView.h */,
+				666B921E29BB197500ADC86F /* MQTestView.m */,
+				666B922329BB70C300ADC86F /* TestApplication.h */,
+				666B922429BB70C300ADC86F /* TestApplication.m */,
+				666B922629BB728100ADC86F /* TestWindow.h */,
+				666B922729BB728100ADC86F /* TestWindow.m */,
+				666B920D29BB175B00ADC86F /* Main.storyboard */,
+				666B921029BB175C00ADC86F /* Assets.xcassets */,
+				666B921229BB175C00ADC86F /* LaunchScreen.storyboard */,
+				666B921529BB175C00ADC86F /* Info.plist */,
+				666B921629BB175C00ADC86F /* main.m */,
+			);
+			path = MQTouchDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		666B920029BB175B00ADC86F /* MQTouchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666B921A29BB175C00ADC86F /* Build configuration list for PBXNativeTarget "MQTouchDemo" */;
+			buildPhases = (
+				666B91FD29BB175B00ADC86F /* Sources */,
+				666B91FE29BB175B00ADC86F /* Frameworks */,
+				666B91FF29BB175B00ADC86F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQTouchDemo;
+			productName = MQTouchDemo;
+			productReference = 666B920129BB175B00ADC86F /* MQTouchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		666B91F929BB175B00ADC86F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					666B920029BB175B00ADC86F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 666B91FC29BB175B00ADC86F /* Build configuration list for PBXProject "MQTouchDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 666B91F829BB175B00ADC86F;
+			productRefGroup = 666B920229BB175B00ADC86F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				666B920029BB175B00ADC86F /* MQTouchDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		666B91FF29BB175B00ADC86F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666B921429BB175C00ADC86F /* LaunchScreen.storyboard in Resources */,
+				666B921129BB175C00ADC86F /* Assets.xcassets in Resources */,
+				666B920F29BB175B00ADC86F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		666B91FD29BB175B00ADC86F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666B922529BB70C300ADC86F /* TestApplication.m in Sources */,
+				666B920C29BB175B00ADC86F /* ViewController.m in Sources */,
+				666B920629BB175B00ADC86F /* AppDelegate.m in Sources */,
+				666B922829BB728100ADC86F /* TestWindow.m in Sources */,
+				666B921729BB175C00ADC86F /* main.m in Sources */,
+				666B920929BB175B00ADC86F /* SceneDelegate.m in Sources */,
+				666B921F29BB197500ADC86F /* MQTestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		666B920D29BB175B00ADC86F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666B920E29BB175B00ADC86F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		666B921229BB175C00ADC86F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666B921329BB175C00ADC86F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		666B921829BB175C00ADC86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		666B921929BB175C00ADC86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		666B921B29BB175C00ADC86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A79PYS926V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MQTouchDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MagicianQuenthin.MQTouchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666B921C29BB175C00ADC86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A79PYS926V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MQTouchDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MagicianQuenthin.MQTouchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		666B91FC29BB175B00ADC86F /* Build configuration list for PBXProject "MQTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666B921829BB175C00ADC86F /* Debug */,
+				666B921929BB175C00ADC86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666B921A29BB175C00ADC86F /* Build configuration list for PBXNativeTarget "MQTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666B921B29BB175C00ADC86F /* Debug */,
+				666B921C29BB175C00ADC86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 666B91F929BB175B00ADC86F /* Project object */;
+}
