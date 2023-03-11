@@ -1,16 +1,14 @@
 //
 //  SceneDelegate.m
-//  MQTouchDemo
+//  Touch2Demo
 //
-//  Created by MagicianQuentin on 2023/3/10.
+//  Created by MagicianQuentin on 2023/3/11.
 //
 
 #import "SceneDelegate.h"
-#import "TestWindow.h"
-#import "ViewController.h"
+#import "MQTableViewController.h"
 
 @interface SceneDelegate ()
-
 @end
 
 @implementation SceneDelegate
@@ -20,12 +18,16 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-    self.window = [[TestWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.windowScene = (UIWindowScene*)scene;
-    ViewController *vc = [[ViewController alloc] init];
-    self.window.rootViewController = vc;
-    [self.window makeKeyAndVisible];
+    MQTableViewController *vc = [[MQTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    vc.edgesForExtendedLayout = UIRectEdgeNone;
+    vc.navigationItem.title = @"Touch Demo";
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     
+    self.window.windowScene = (UIWindowScene *)scene;
+    self.window.rootViewController = nav;
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
 }
 
 
@@ -35,7 +37,6 @@
     // Release any resources associated with this scene that can be re-created the next time the scene connects.
     // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 }
-
 
 - (void)sceneDidBecomeActive:(UIScene *)scene  API_AVAILABLE(ios(13.0)){
     // Called when the scene has moved from an inactive state to an active state.
@@ -60,6 +61,5 @@
     // Use this method to save data, release shared resources, and store enough scene-specific state information
     // to restore the scene back to its current state.
 }
-
 
 @end

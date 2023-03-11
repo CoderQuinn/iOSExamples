@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F07ADC29BC5F5A00A0CAE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07ADB29BC5F5A00A0CAE3 /* AppDelegate.m */; };
+		66F07ADF29BC5F5A00A0CAE3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07ADE29BC5F5A00A0CAE3 /* SceneDelegate.m */; };
+		66F07AE529BC5F5A00A0CAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F07AE329BC5F5A00A0CAE3 /* Main.storyboard */; };
+		66F07AE729BC5F5B00A0CAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F07AE629BC5F5B00A0CAE3 /* Assets.xcassets */; };
+		66F07AEA29BC5F5B00A0CAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F07AE829BC5F5B00A0CAE3 /* LaunchScreen.storyboard */; };
+		66F07AED29BC5F5B00A0CAE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07AEC29BC5F5B00A0CAE3 /* main.m */; };
+		66F07AF529BC653D00A0CAE3 /* MQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07AF429BC653D00A0CAE3 /* MQTableViewController.m */; };
+		66F07AF829BC679100A0CAE3 /* ButtonHitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07AF729BC679100A0CAE3 /* ButtonHitTestViewController.m */; };
+		66F07AFC29BC691000A0CAE3 /* ButtonHitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07AFB29BC691000A0CAE3 /* ButtonHitTestView.m */; };
+		66F07B0029BC741000A0CAE3 /* ButtonPointInsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07AFF29BC741000A0CAE3 /* ButtonPointInsideView.m */; };
+		66F07B0329BC743200A0CAE3 /* ButtonPointInsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07B0229BC743200A0CAE3 /* ButtonPointInsideViewController.m */; };
+		66F07B0629BC750300A0CAE3 /* MQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07B0529BC750300A0CAE3 /* MQButton.m */; };
+		66F07B0929BC791700A0CAE3 /* ButtonSubViewOutsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07B0829BC791700A0CAE3 /* ButtonSubViewOutsideViewController.m */; };
+		66F07B0D29BC7DFE00A0CAE3 /* ButtonSubViewOutsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07B0C29BC7DFE00A0CAE3 /* ButtonSubViewOutsideView.m */; };
+		66F07B1029BC810000A0CAE3 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07B0F29BC810000A0CAE3 /* KeyboardViewController.m */; };
+		66F07B1429BC812F00A0CAE3 /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F07B1329BC812F00A0CAE3 /* KeyboardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66F07AD729BC5F5A00A0CAE3 /* Touch2Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touch2Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F07ADA29BC5F5A00A0CAE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F07ADB29BC5F5A00A0CAE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F07ADD29BC5F5A00A0CAE3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		66F07ADE29BC5F5A00A0CAE3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		66F07AE429BC5F5A00A0CAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F07AE629BC5F5B00A0CAE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F07AE929BC5F5B00A0CAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66F07AEB29BC5F5B00A0CAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F07AEC29BC5F5B00A0CAE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F07AF329BC653D00A0CAE3 /* MQTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQTableViewController.h; sourceTree = "<group>"; };
+		66F07AF429BC653D00A0CAE3 /* MQTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTableViewController.m; sourceTree = "<group>"; };
+		66F07AF629BC679100A0CAE3 /* ButtonHitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonHitTestViewController.h; sourceTree = "<group>"; };
+		66F07AF729BC679100A0CAE3 /* ButtonHitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonHitTestViewController.m; sourceTree = "<group>"; };
+		66F07AFA29BC691000A0CAE3 /* ButtonHitTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonHitTestView.h; sourceTree = "<group>"; };
+		66F07AFB29BC691000A0CAE3 /* ButtonHitTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonHitTestView.m; sourceTree = "<group>"; };
+		66F07AFE29BC741000A0CAE3 /* ButtonPointInsideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonPointInsideView.h; sourceTree = "<group>"; };
+		66F07AFF29BC741000A0CAE3 /* ButtonPointInsideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonPointInsideView.m; sourceTree = "<group>"; };
+		66F07B0129BC743200A0CAE3 /* ButtonPointInsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonPointInsideViewController.h; sourceTree = "<group>"; };
+		66F07B0229BC743200A0CAE3 /* ButtonPointInsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonPointInsideViewController.m; sourceTree = "<group>"; };
+		66F07B0429BC750300A0CAE3 /* MQButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQButton.h; sourceTree = "<group>"; };
+		66F07B0529BC750300A0CAE3 /* MQButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQButton.m; sourceTree = "<group>"; };
+		66F07B0729BC791700A0CAE3 /* ButtonSubViewOutsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonSubViewOutsideViewController.h; sourceTree = "<group>"; };
+		66F07B0829BC791700A0CAE3 /* ButtonSubViewOutsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonSubViewOutsideViewController.m; sourceTree = "<group>"; };
+		66F07B0B29BC7DFE00A0CAE3 /* ButtonSubViewOutsideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonSubViewOutsideView.h; sourceTree = "<group>"; };
+		66F07B0C29BC7DFE00A0CAE3 /* ButtonSubViewOutsideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonSubViewOutsideView.m; sourceTree = "<group>"; };
+		66F07B0E29BC810000A0CAE3 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyboardViewController.h; path = Touch2Demo/Keyboard/KeyboardViewController.h; sourceTree = SOURCE_ROOT; };
+		66F07B0F29BC810000A0CAE3 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeyboardViewController.m; path = Touch2Demo/Keyboard/KeyboardViewController.m; sourceTree = SOURCE_ROOT; };
+		66F07B1229BC812F00A0CAE3 /* KeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		66F07B1329BC812F00A0CAE3 /* KeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F07AD429BC5F5A00A0CAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F07ACE29BC5F5A00A0CAE3 = {
+			isa = PBXGroup;
+			children = (
+				66F07AD929BC5F5A00A0CAE3 /* Touch2Demo */,
+				66F07AD829BC5F5A00A0CAE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F07AD829BC5F5A00A0CAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F07AD729BC5F5A00A0CAE3 /* Touch2Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F07AD929BC5F5A00A0CAE3 /* Touch2Demo */ = {
+			isa = PBXGroup;
+			children = (
+				66F07ADA29BC5F5A00A0CAE3 /* AppDelegate.h */,
+				66F07ADB29BC5F5A00A0CAE3 /* AppDelegate.m */,
+				66F07ADD29BC5F5A00A0CAE3 /* SceneDelegate.h */,
+				66F07ADE29BC5F5A00A0CAE3 /* SceneDelegate.m */,
+				66F07AF329BC653D00A0CAE3 /* MQTableViewController.h */,
+				66F07AF429BC653D00A0CAE3 /* MQTableViewController.m */,
+				66F07AE329BC5F5A00A0CAE3 /* Main.storyboard */,
+				66F07AE629BC5F5B00A0CAE3 /* Assets.xcassets */,
+				66F07AE829BC5F5B00A0CAE3 /* LaunchScreen.storyboard */,
+				66F07AEB29BC5F5B00A0CAE3 /* Info.plist */,
+				66F07AEC29BC5F5B00A0CAE3 /* main.m */,
+				66F07B1129BC810900A0CAE3 /* Keyboard */,
+				66F07AFD29BC723700A0CAE3 /* ButtonPointInside */,
+				66F07AF929BC679700A0CAE3 /* ButtonHitTest */,
+				66F07B0A29BC791D00A0CAE3 /* ButtonSubViewOutside */,
+			);
+			path = Touch2Demo;
+			sourceTree = "<group>";
+		};
+		66F07AF929BC679700A0CAE3 /* ButtonHitTest */ = {
+			isa = PBXGroup;
+			children = (
+				66F07AF629BC679100A0CAE3 /* ButtonHitTestViewController.h */,
+				66F07AF729BC679100A0CAE3 /* ButtonHitTestViewController.m */,
+				66F07AFA29BC691000A0CAE3 /* ButtonHitTestView.h */,
+				66F07AFB29BC691000A0CAE3 /* ButtonHitTestView.m */,
+			);
+			path = ButtonHitTest;
+			sourceTree = "<group>";
+		};
+		66F07AFD29BC723700A0CAE3 /* ButtonPointInside */ = {
+			isa = PBXGroup;
+			children = (
+				66F07AFE29BC741000A0CAE3 /* ButtonPointInsideView.h */,
+				66F07AFF29BC741000A0CAE3 /* ButtonPointInsideView.m */,
+				66F07B0129BC743200A0CAE3 /* ButtonPointInsideViewController.h */,
+				66F07B0229BC743200A0CAE3 /* ButtonPointInsideViewController.m */,
+				66F07B0429BC750300A0CAE3 /* MQButton.h */,
+				66F07B0529BC750300A0CAE3 /* MQButton.m */,
+			);
+			path = ButtonPointInside;
+			sourceTree = "<group>";
+		};
+		66F07B0A29BC791D00A0CAE3 /* ButtonSubViewOutside */ = {
+			isa = PBXGroup;
+			children = (
+				66F07B0729BC791700A0CAE3 /* ButtonSubViewOutsideViewController.h */,
+				66F07B0829BC791700A0CAE3 /* ButtonSubViewOutsideViewController.m */,
+				66F07B0B29BC7DFE00A0CAE3 /* ButtonSubViewOutsideView.h */,
+				66F07B0C29BC7DFE00A0CAE3 /* ButtonSubViewOutsideView.m */,
+			);
+			path = ButtonSubViewOutside;
+			sourceTree = "<group>";
+		};
+		66F07B1129BC810900A0CAE3 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				66F07B0E29BC810000A0CAE3 /* KeyboardViewController.h */,
+				66F07B0F29BC810000A0CAE3 /* KeyboardViewController.m */,
+				66F07B1229BC812F00A0CAE3 /* KeyboardView.h */,
+				66F07B1329BC812F00A0CAE3 /* KeyboardView.m */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F07AD629BC5F5A00A0CAE3 /* Touch2Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F07AF029BC5F5B00A0CAE3 /* Build configuration list for PBXNativeTarget "Touch2Demo" */;
+			buildPhases = (
+				66F07AD329BC5F5A00A0CAE3 /* Sources */,
+				66F07AD429BC5F5A00A0CAE3 /* Frameworks */,
+				66F07AD529BC5F5A00A0CAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touch2Demo;
+			productName = Touch2Demo;
+			productReference = 66F07AD729BC5F5A00A0CAE3 /* Touch2Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F07ACF29BC5F5A00A0CAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					66F07AD629BC5F5A00A0CAE3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 66F07AD229BC5F5A00A0CAE3 /* Build configuration list for PBXProject "Touch2Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F07ACE29BC5F5A00A0CAE3;
+			productRefGroup = 66F07AD829BC5F5A00A0CAE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F07AD629BC5F5A00A0CAE3 /* Touch2Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F07AD529BC5F5A00A0CAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F07AEA29BC5F5B00A0CAE3 /* LaunchScreen.storyboard in Resources */,
+				66F07AE729BC5F5B00A0CAE3 /* Assets.xcassets in Resources */,
+				66F07AE529BC5F5A00A0CAE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F07AD329BC5F5A00A0CAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F07AFC29BC691000A0CAE3 /* ButtonHitTestView.m in Sources */,
+				66F07AF529BC653D00A0CAE3 /* MQTableViewController.m in Sources */,
+				66F07B0929BC791700A0CAE3 /* ButtonSubViewOutsideViewController.m in Sources */,
+				66F07AF829BC679100A0CAE3 /* ButtonHitTestViewController.m in Sources */,
+				66F07B0029BC741000A0CAE3 /* ButtonPointInsideView.m in Sources */,
+				66F07B0629BC750300A0CAE3 /* MQButton.m in Sources */,
+				66F07ADC29BC5F5A00A0CAE3 /* AppDelegate.m in Sources */,
+				66F07B1029BC810000A0CAE3 /* KeyboardViewController.m in Sources */,
+				66F07B0D29BC7DFE00A0CAE3 /* ButtonSubViewOutsideView.m in Sources */,
+				66F07B1429BC812F00A0CAE3 /* KeyboardView.m in Sources */,
+				66F07AED29BC5F5B00A0CAE3 /* main.m in Sources */,
+				66F07ADF29BC5F5A00A0CAE3 /* SceneDelegate.m in Sources */,
+				66F07B0329BC743200A0CAE3 /* ButtonPointInsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66F07AE329BC5F5A00A0CAE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F07AE429BC5F5A00A0CAE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66F07AE829BC5F5B00A0CAE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F07AE929BC5F5B00A0CAE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F07AEE29BC5F5B00A0CAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66F07AEF29BC5F5B00A0CAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F07AF129BC5F5B00A0CAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A79PYS926V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touch2Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MagicianQuenthin.Touch2Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F07AF229BC5F5B00A0CAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A79PYS926V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touch2Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MagicianQuenthin.Touch2Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F07AD229BC5F5A00A0CAE3 /* Build configuration list for PBXProject "Touch2Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F07AEE29BC5F5B00A0CAE3 /* Debug */,
+				66F07AEF29BC5F5B00A0CAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F07AF029BC5F5B00A0CAE3 /* Build configuration list for PBXNativeTarget "Touch2Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F07AF129BC5F5B00A0CAE3 /* Debug */,
+				66F07AF229BC5F5B00A0CAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F07ACF29BC5F5A00A0CAE3 /* Project object */;
+}
